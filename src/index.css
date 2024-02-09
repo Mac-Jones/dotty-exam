@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+	.flex-center {
+		@apply flex justify-center items-center;
+	}
+	.flex-between {
+		@apply flex justify-between items-center;
+	}
+	.border-left {
+		@apply border-l pl-5;
+	}
+}
